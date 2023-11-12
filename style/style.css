@@ -60,13 +60,13 @@
   color: #121212;
 }
 .about__title {
-  padding-bottom: 34px;
+  margin-bottom: 34px;
   font-size: 18px;
   letter-spacing: -0.54px;
   text-transform: uppercase;
 }
 .about__text-description {
-  padding-bottom: 53px;
+  margin-bottom: 53px;
   padding-left: 4px;
   max-width: 1048px;
   font-size: 45px;

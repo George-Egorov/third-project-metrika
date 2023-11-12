@@ -2,7 +2,7 @@
 .header {
   display: flex;
   justify-content: space-between;
-  padding: 33px 0;
+  padding: 33px 0 68px 0;
   color: #121212;
 }
 .header__nav-list {
@@ -24,27 +24,27 @@
 }
 /* header-end */
 
-/* first-screen-start */
-.first-screen {
-  padding-bottom: 150px;
+/* hero-start */
+.hero {
+  margin-bottom: 150px;
 }
-.first-screen__title {
-  margin: 34px 0px 29px 1px;
+.hero__title {
+  margin: 0px 0px 29px 1px;
   max-width: 956px;
   font-size: 60px;
   line-height: 60px;
   letter-spacing: -1.8px;
   color: #121212;
 }
-.first-screen__background {
+.hero__background {
   display: flex;
   align-items: end;
-  min-width: 1150px;
-  min-height: 500px;
+  max-width: 100%;
+  height: 500px;
   background-image: url(../image/background-first-screen.png);
   background-size: cover;
 }
-.first-screen__text-presentation {
+.hero__text-presentation {
   max-width: 465px;
   padding: 0px 0px 40px 41px;
   font-size: 20px;
@@ -52,18 +52,20 @@
   letter-spacing: -0.6px;
   color: #ffffff;
 }
-/* first-screen-end */
-.about-us {
+/* hero-end */
+
+/* about-start */
+.about {
   line-height: normal;
   color: #121212;
 }
-.about-us__title {
+.about__title {
   padding-bottom: 34px;
   font-size: 18px;
   letter-spacing: -0.54px;
   text-transform: uppercase;
 }
-.about-us__text-description {
+.about__text-description {
   padding-bottom: 53px;
   padding-left: 4px;
   max-width: 1048px;
@@ -79,7 +81,7 @@
   background-color: #ad1818;
   color: #ffffff;
 }
-.about-us__button {
+.about__button {
   margin-left: 2px;
 }
-
+/* about-end */

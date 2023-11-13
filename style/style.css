@@ -1,9 +1,11 @@
 /* header-start */
 .header {
-  display: flex;
-  justify-content: space-between;
   padding: 33px 0 68px 0;
   color: #121212;
+}
+.header__content {
+  display: flex;
+  justify-content: space-between;
 }
 .header__nav-list {
   display: flex;

@@ -131,13 +131,12 @@
 
 /* services-start */
 .services {
-  padding-bottom: 157px;
+  padding: 152px 0 157px 0;
   background-color: #121212;
   color: #ffffff;
 }
 .services__title {
   margin-bottom: 35px;
-  padding-top: 152px;
   font-size: 18px;
   letter-spacing: -0.54px;
   text-transform: uppercase;

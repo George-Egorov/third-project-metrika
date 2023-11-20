@@ -196,8 +196,8 @@
   position: absolute;
   top: 147px;
   left: 117px;
-  background-image: url(../image/phone-icon.svg);
-  background-size: aыuto;
+  background-image: url(/image/phone-icon.svg);
+  background-size: auto;
   background-repeat: no-repeat;
   background-position: 50% 50%;
   width: 30px;

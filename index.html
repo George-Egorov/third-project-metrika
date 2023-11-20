@@ -20,10 +20,10 @@
                         <a class="header__logo" href="#"><img src="./image/metrika-logo.svg" alt="Метрика"></a>
                         <nav class="header__nav-bar">
                             <ul class="header__nav-list">
-                                <li class="header__nav-item header__nav-item--text-decoration"><a href="#">о нас</a></li>
-                                <li class="header__nav-item"><a href="#">проекты</a></li>
-                                <li class="header__nav-item"><a href="#">услуги</a></li>
-                                <li class="header__nav-item"><a href="#">контакты</a></li>
+                                <li class="header__nav-item"><a class="header__nav-link" href="#about">о нас</a></li>
+                                <li class="header__nav-item"><a class="header__nav-link" href="#projects">проекты</a></li>
+                                <li class="header__nav-item"><a class="header__nav-link" href="#services">услуги</a></li>
+                                <li class="header__nav-item"><a class="header__nav-link" href="#contacts">контакты</a></li>
                             </ul>
                         </nav>
                     </div>
@@ -39,17 +39,17 @@
                     </div>
                 </div>
             </section>
-            <section class="about">
+            <section id="about" class="about">
                 <div class="container">
                     <h2 class="about__title">о нас</h2>
                     <p class="about__text-description">Студия основана в 2011 году. Полностью отдаемся проектированию
                         и реализации интерьеров. К нам обращаются за уютом, индивидуальными решениями и практичностью.
                         Находим конструктивные решения для каждого интерьера, вплоть до каждой детали — нацелены на результат.
                     </p>
-                    <a class="about__button" href="#">Посмотреть услуги </a>
+                    <a class="about__button" href="#services">Посмотреть услуги </a>
                 </div>
             </section>
-            <section class="projects">
+            <section id="projects" class="projects">
                 <div class="container">
                     <h2 class="projects__title">проекты</h2>
                     <div class="projects__item item-project">
@@ -70,7 +70,7 @@
                     <a class="projects__button" href="#">Смотреть все проекты</a>
                 </div>
             </section>
-            <section class="services">
+            <section id="services" class="services">
                 <div class="container">
                     <h2 class="services__title">услуги</h2>
                     <div class="services__item">
@@ -91,15 +91,14 @@
                     </div>
                 </div>
             </section>
-            <!-- <section class="project">
+            <section class="project">
                 <div class="container">
-                    <h3 class="project__title">Проект  Двухкомнтаной квартиры в ЖК Лесной Пейзаж</h3>
+                    <h3 class="project__title">Проект  Двухкомнатной квартиры в ЖК Лесной Пейзаж</h3>
                 </div>
             </section>
-            <section class="contacts">
+            <section id="contacts" class="contacts">
                 <div class="container">
                     <address class="contacts__box">
-                        <img class="contacts__phone-icon" src="./image/phone-icon.svg" alt="phone-icon">
                         <p class="contacts__text">контакты</p>
                         <a class="contacts__phone" href="tel:+79358954535">+7 935  895-45-35</a>
                         <a class="contacts__mail" href="mailto:hello@mail.com">hello@mail.com</a>
@@ -110,15 +109,15 @@
                 <div class="container">
                     <nav class="footer__nav-bar">
                         <ul class="footer__nav-list">
-                            <li class="footer__nav-item footer__nav-item--opacity">о нас</li>
-                            <li class="footer__nav-item">проекты</li>
-                            <li class="footer__nav-item">услуги</li>
-                            <li class="footer__nav-item">контакты</li>
+                            <li class="footer__nav-item"><a href="#about" class="footer__nav-link">о нас</a></li>
+                            <li class="footer__nav-item"><a href="#projects" class="footer__nav-link">проекты</a></li>
+                            <li class="footer__nav-item"><a href="#services" class="footer__nav-link">услуги</a></li>
+                            <li class="footer__nav-item"><a href="#contacts" class="footer__nav-link">контакты</a></li>
                         </ul>
                     </nav>
                     <p class="footer__text">студия дизайна интерьера Метрика — 2023</p>
                 </div>
-            </footer> -->
+            </footer>
         </div>
     </body>
 </html>

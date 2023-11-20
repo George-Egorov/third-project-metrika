@@ -125,6 +125,7 @@
   text-align: center;
   font-size: 30px;
   letter-spacing: -0.9px;
+  transition-duration: 0.2s;
   color: #AD1818;
 }
 .projects__button:hover {

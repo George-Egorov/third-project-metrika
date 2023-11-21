@@ -165,7 +165,6 @@
 
 /* project-start */
 .project {
-  position: relative;
   height: 717px;
   background-image: url(../image/background-section-project.jpg);
   background-size: cover;
@@ -173,10 +172,13 @@
   background-position: 50% 50%;
   color: #ffffff;
 }
+.project-title-wrapper {
+  position: relative;
+}
 .project__title {
   position: absolute;
   top: 575px;
-  left: 125px;
+  left: 1px;
   width: 443px;
   font-size: 30px;
   line-height: normal;
@@ -188,14 +190,16 @@
 .contacts {
   margin-bottom: 160px;
   padding-top: 187px;
+}
+.contacts__box {
   position: relative;
 }
-.contacts::before {
+.contacts__box::before {
   content: "";
   display: block;
   position: absolute;
-  top: 147px;
-  left: 117px;
+  top: -40px;
+  left: -9px;
   background-image: url(../image/phone-icon.svg);
   background-size: auto;
   background-repeat: no-repeat;
@@ -231,13 +235,13 @@
 
 /* footer-start */
 .footer {
+  padding-top: 60px;
   padding-bottom: 30px;
   background-color: #121212;
   color: #ffffff;
 }
 .footer__nav-bar {
   margin-bottom: 93px;
-  padding-top: 60px;
 }
 .footer__nav-list {
   display: flex;
